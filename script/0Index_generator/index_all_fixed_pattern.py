@@ -116,3 +116,11 @@ ind_all.save_result()
 dep_all = decompose_fixedPattern('dep','all')
 dep_all.save_result()
 # %%
+
+ind_first = decompose_fixedPattern('ind','first')
+ind_first.save_result()
+
+# %%
+dep_first = decompose_fixedPattern('dep','first')
+dep_first.save_result()
+# %%
