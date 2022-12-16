@@ -1,0 +1,33 @@
+name: thirdPanel
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python>=3.9
+    - pytest
+    - sphinx
+    - xarray[complete]
+    - numpy 
+    - pandas
+    - matplotlib
+    - cartopy
+    - tqdm
+    - seaborn
+    - eofs    
+    - dask 
+    - netCDF4 
+    - bottleneck
+    - statsmodels
+    - pyextremes
+    - pip
+    - nbsphinx
+    - ipywidgets
+    - proplot
+    - iris
+    - scikit
+    - mdutils
+    - pip:
+        - myst_parser
+        - nc-time-axis
+        - black
+        
