@@ -14,14 +14,14 @@ import os
 import sys
 
 # sys.path.insert(0, os.path.abspath("../.."))
-sys.path.insert(0, "/work/mh0033/m300883/3rdPanel")
+sys.path.insert(0, "/work/mh0033/m300883/Tele_season")
 
 
 
 # -- Project information -----------------------------------------------------
 
-project = "thirdPanel"
-copyright = "2022, thirdPanel developers"
+project = "Teleconnection seasonal"
+copyright = "2022, MPI-OES"
 author = "Quan Liu"
 
 
