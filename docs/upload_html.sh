@@ -3,7 +3,6 @@
 conda activate thirdPanel
 
 # go to 
-cd /work/mh0033/m300883/3rdPanel/docs
-
+cd /work/mh0033/m300883/Tele_season/docs
 # upload
-swift upload 3rdPanel build
+swift upload Tel_season build
