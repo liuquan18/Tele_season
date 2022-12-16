@@ -70,6 +70,7 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+docs/source/plots
 
 # PyBuilder
 target/
@@ -127,3 +128,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data folder
+data/*
+src/__init__.py
+
+# plots folder
+plots/*
