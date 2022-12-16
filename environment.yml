@@ -30,4 +30,5 @@ dependencies:
         - black
         - mdutils
         - scikit-learn
+        - intake-esm
         
