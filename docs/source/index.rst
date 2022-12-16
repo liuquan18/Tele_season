@@ -10,6 +10,7 @@ Welcome to Teleconnection-season's documentation!
    :maxdepth: 2
 
    Analysis_process
+   functions
    independently decomposed <ind_all>
    dependently decomposed <dep_all>
 
