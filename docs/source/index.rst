@@ -11,8 +11,10 @@ Welcome to Teleconnection-season's documentation!
 
    Analysis_process
    functions
-   independently decomposed <ind_all>
-   dependently decomposed <dep_all>
+   independently decomposed all pattern <ind_all>
+   dependently decomposed all pattern <dep_all>
+   independently decomposed first pattern <ind_first>
+   dependently decomposed first pattern <dep_first>
 
 Indices and tables
 ==================
