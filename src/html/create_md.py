@@ -3,7 +3,7 @@ from mdutils.mdutils import MdUtils
 
 #%%
 def doc_quick_plots(file_name, title, plot_dir, prefix):
-    qp = MdUtils(file_name, title=title)  # qick plots
+    qp = MdUtils(file_name, title="")  # qick plots,no title here
     qp.new_header(level = 1, title = title)
 
     # overview
