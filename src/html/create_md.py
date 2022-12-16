@@ -4,6 +4,7 @@ from mdutils.mdutils import MdUtils
 #%%
 def doc_quick_plots(file_name, title, plot_dir, prefix):
     qp = MdUtils(file_name, title=title)  # qick plots
+    qp.new_header(level = 1, title = title)
 
     # overview
     qp.new_header(level=2, title="statistical overview")
