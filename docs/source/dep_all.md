@@ -1,7 +1,4 @@
 
-dep decomposition all-pattern quick plots
-=========================================
-
 # dep decomposition all-pattern quick plots
 
 ## statistical overview

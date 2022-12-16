@@ -1,7 +1,3 @@
-
-ind decomposition first-pattern quick plots
-===========================================
-
 # ind decomposition first-pattern quick plots
 
 ## statistical overview
