@@ -53,11 +53,11 @@ class first10_last10_index:
         )  # for name/ ind_all_
 
         # the destination for savinig plots
-        self.plot_dir = "/work/mh0033/m300883/3rdPanel/docs/source/plots/quick_plots/"
+        self.plot_dir = "/work/mh0033/m300883/Tele_season/docs/source/plots/quick_plots/"
 
         # the destination for the doc
         self.img_dir = "plots/quick_plots/"  # relative, no why
-        self.doc_dir = "/work/mh0033/m300883/3rdPanel/docs/source/"
+        self.doc_dir = "/work/mh0033/m300883/Tele_season/docs/source/"
 
         # read data of eof, index and explained variance
         self.eof, self.pc, self.fra = self.read_eof_data()
@@ -80,6 +80,9 @@ class first10_last10_index:
 
 
     def read_eof_data(self):
+        """
+        The data are stored in `3rdPanel/data/`
+        """
         print("reading eof result data...")
         odir = (
             "/work/mh0033/m300883/3rdPanel/data/class_decompose/"
@@ -96,6 +99,9 @@ class first10_last10_index:
         return eof, pc, fra
 
     def read_gph_data(self):
+        """
+        The data are stored somewhere here...
+        """
         print("reading gph data...")
         # data
         allens = xr.open_dataset(
@@ -218,6 +224,7 @@ class first10_last10_index:
     def read_var(self,var):
         """
         read the tsurf or wind, precipitation for composite analysis
+        data are stored in 3rdPanel/data/
         """
         data_path = (
         "/work/mh0033/m300883/3rdPanel/data/influence/"
