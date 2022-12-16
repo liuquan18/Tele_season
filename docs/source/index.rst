@@ -3,20 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to thirdPanel's documentation!
+Welcome to Teleconnection-season's documentation!
 =====================================
 
 .. toctree::
    :maxdepth: 2
 
    Analysis_process
-   functions
-   3rd Panel meeting <result>
-   first10_last10_dynamic_pattern
-   first10_last10_all_pattern
-   climate influence dep <visiting_Athens>
-   climate influence ind <climate_influence_ind>
-   problems   
    independently decomposed <ind_all>
    dependently decomposed <dep_all>
 
