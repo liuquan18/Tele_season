@@ -1,7 +1,4 @@
 
-dep decomposition first-pattern quick plots
-===========================================
-
 # dep decomposition first-pattern quick plots
 
 ## statistical overview
