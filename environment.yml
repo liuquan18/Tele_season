@@ -6,7 +6,6 @@ dependencies:
     - python>=3.9
     - pytest
     - sphinx
-    - xarray[complete]
     - numpy 
     - pandas
     - matplotlib
@@ -32,4 +31,5 @@ dependencies:
         - scikit-learn
         - intake-esm
         - aiohttp-requests
+        - xarray[complete]
         
