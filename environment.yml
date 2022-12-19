@@ -31,4 +31,5 @@ dependencies:
         - mdutils
         - scikit-learn
         - intake-esm
+        - aiohttp-requests
         
